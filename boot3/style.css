@@ -1,0 +1,27 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    width: 130px;
+    height: auto;
+}
+.feature-item img{
+    width: 50px;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+.subscribe{
+    background-image: url('img/subscribe.jpg');
+    background-size: cover;
+    background-position: center;
+}
+ .brand-icon img{
+    
+    width: 150px;
+    height: auto;
+}
