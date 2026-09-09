@@ -39,7 +39,7 @@ https://animated-semolina-849cf4.netlify.app/
 
 ### 🌐 Live Demo
 
-https://project2-rho-ashy.vercel.app/
+https://project2-1-chi.vercel.app/
 
 ### 📸 Screenshot
 <img width="1686" height="952" alt="image" src="https://github.com/user-attachments/assets/5a555614-7c61-42c0-8565-5a4689ed4b3f" />
