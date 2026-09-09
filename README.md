@@ -39,12 +39,11 @@ https://animated-semolina-849cf4.netlify.app/
 
 ### 🌐 Live Demo
 
-https://classy-rolypoly-74839f.netlify.app/
+https://project2-rho-ashy.vercel.app/
 
 ### 📸 Screenshot
+<img width="1686" height="952" alt="image" src="https://github.com/user-attachments/assets/5a555614-7c61-42c0-8565-5a4689ed4b3f" />
 
-<img width="1916" height="943" alt="image" src="https://github.com/user-attachments/assets/a6cf10e4-e257-4e2a-abc3-64bdfadb919f" />
-<img width="1898" height="942" alt="image" src="https://github.com/user-attachments/assets/6a910a04-d678-4ef0-a84e-377a72e207ac" />
 
 
 
