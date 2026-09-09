@@ -91,7 +91,7 @@ https://celebrated-treacle-ac2399.netlify.app/
 
 ### 🌐 Live Demo
 
-https://figmachallenge-neon.vercel.app/
+https://figmachallenge-2.vercel.app/
 
 ### 📸 Screenshot
 
