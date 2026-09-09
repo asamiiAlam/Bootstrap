@@ -17,14 +17,17 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" 
+     rel="stylesheet">
   </head>
   <body class="min-vh-100 d-flex flex-column">
     <nav class="navbar navbar-expand-lg bg-white py-4">
       <div class="container">
         <!-- Brand -->
         <a class="navbar-brand fw-bold text-dark mb-0 h3 lh-sm" href="#">
-          <span class="d-block d-md-inline">Abacus</span>
-          <span>Convention Center</span>
+          <span class="d-block d-md-inline" style="color:#3E3E3E;">Abacus</span>
+          <span style="color:#3E3E3E;">Convention Center</span>
         </a>
 
         <!-- Hamburger Button -->
@@ -65,535 +68,990 @@
         </div>
       </div>
     </nav>
-<!--carousel-->
-<div id="carouselExampleIndicators" 
-class="carousel slide" 
-data-bs-ride="carousel">
+    <!--carousel-->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          style="width: 45px; height: 5px"
+        ></button>
 
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          style="width: 45px; height: 5px"
+        ></button>
 
-    <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          style="width: 45px; height: 5px"
+        ></button>
 
-        <button type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide-to="0"
-        class="active"
-        style="width:45px; height:5px;">
-        </button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          style="width: 45px; height: 5px"
+        ></button>
+      </div>
 
-        <button type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide-to="1"
-        style="width:45px; height:5px;">
-        </button>
-
-        <button type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide-to="2"
-        style="width:45px; height:5px;">
-        </button>
-
-        <button type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide-to="3"
-        style="width:45px; height:5px;">
-        </button>
-
-    </div>
-
-
-
-    <div class="carousel-inner">
-
-
+      <div class="carousel-inner">
         <div class="carousel-item active position-relative">
-
-            <img 
+          <img
             src="pic/c1.jpg"
             class="d-block w-100"
-            style="height:475px; object-fit:cover;">
+            style="height: 775px; object-fit: cover; object-position: center"
+          />
 
-            <div class="position-absolute top-0 start-0 w-100 h-100"
-            style="background:rgba(0,0,0,0.45);">
-            </div>
+          <div
+            class="position-absolute top-0 start-0 w-100 h-100"
+            style="background: rgba(0, 0, 0, 0.45)"
+          ></div>
 
+          <div class="carousel-caption mb-5">
+            <h1 class="fw-bold text-white spacing">
+              The perfect venue for your<br />
+              next event
+            </h1>
 
-            <div class="carousel-caption top-50 translate-middle-y">
+            <p class="text-white fw-light">
+              Amet minim mollit non deserunt ullamco est sit aliqua<br />
+              dolor do amet sint. Velit officia consequat duis enim velit.
+            </p>
 
-                <h1 class="fw-bold text-white">
-                    The perfect venue for your<br>
-                    next event
-                </h1>
-
-                <p class="text-white ">
-                    Amet minim mollit non deserunt ullamco est sit aliqua
-                    dolor do amet sint. Velit officia consequat duis enim velit.
-                </p>
-
-                <button class="btn btn-light text-primary fw-bold px-5 py-2">
-                    Book Now
-                </button>
-
-            </div>
-
+            <button class="btn btn-light text-primary fw-bold px-5 py-2">
+              Book Now
+            </button>
+          </div>
         </div>
 
-
-
-        <div class="carousel-item">
-
-            <img 
+        <div class="carousel-item position-relative">
+          <img
             src="pic/c2.jpg"
             class="d-block w-100"
-            style="height:475px; object-fit:cover;">
-            <div class="carousel-caption top-50 translate-middle-y">
+            style="height: 775px; object-fit: cover; object-position: center"
+          />
+          <div
+            class="position-absolute top-0 start-0 w-100 h-100"
+            style="background: rgba(0, 0, 0, 0.5)"
+          ></div>
 
-                <h1 class="fw-bold text-white">
-                    The perfect venue for your<br>
-                    next event
-                </h1>
+          <div class="carousel-caption mb-5">
+            <h1 class="fw-bold text-white">
+              The perfect venue for your<br />
+              next event
+            </h1>
 
-                <p class="text-white">
-                    Amet minim mollit non deserunt ullamco est sit aliqua
-                    dolor do amet sint. Velit officia consequat duis enim velit.
-                </p>
+            <p class="text-white">
+              Amet minim mollit non deserunt ullamco est sit aliqua<br />
+              dolor do amet sint. Velit officia consequat duis enim velit.
+            </p>
 
-                <button class="btn btn-light text-primary fw-bold px-5 py-2">
-                    Book Now
-                </button>
-
-            </div>
-
+            <button class="btn btn-light text-primary fw-bold px-5 py-2">
+              Book Now
+            </button>
+          </div>
         </div>
 
-
-
-        <div class="carousel-item">
-
-            <img 
+        <div class="carousel-item position-relative">
+          <img
             src="pic/c3.jpg"
             class="d-block w-100"
-            style="height:475px; object-fit:cover;">
-            <div class="carousel-caption top-50 translate-middle-y">
+            style="height: 775px; object-fit: cover; object-position: center"
+          />
+          <div
+            class="position-absolute top-0 start-0 w-100 h-100"
+            style="background: rgba(0, 0, 0, 0.5)"
+          ></div>
+          <div class="carousel-caption mb-5">
+            <h1 class="fw-bold text-white spacing">
+              The perfect venue for your<br />
+              next event
+            </h1>
 
-                <h1 class="fw-bold text-white">
-                    The perfect venue for your<br>
-                    next event
-                </h1>
+            <p class="text-white">
+              Amet minim mollit non deserunt ullamco est sit aliqua<br />
+              dolor do amet sint. Velit officia consequat duis enim velit.
+            </p>
 
-                <p class="text-white">
-                    Amet minim mollit non deserunt ullamco est sit aliqua
-                    dolor do amet sint. Velit officia consequat duis enim velit.
-                </p>
-
-                <button class="btn btn-light text-primary fw-bold px-5 py-2">
-                    Book Now
-                </button>
-
-            </div>
-
+            <button class="btn btn-light text-primary fw-bold px-5 py-2">
+              Book Now
+            </button>
+          </div>
         </div>
 
-
-
-        <div class="carousel-item">
-
-            <img 
+        <div class="carousel-item position-relative">
+          <img
             src="pic/c4.jpg"
             class="d-block w-100"
-            style="height:475px; object-fit:cover;">
-            <div class="carousel-caption top-50 translate-middle-y">
+            style="height: 775px; object-fit: cover; object-position: center"
+          />
+          <div
+            class="position-absolute top-0 start-0 w-100 h-100"
+            style="background: rgba(0, 0, 0, 0.5)"
+          ></div>
+          <div class="carousel-caption mb-5">
+            <h1 class="fw-bold text-white">
+              The perfect venue for your<br />
+              next event
+            </h1>
 
-                <h1 class="fw-bold text-white">
-                    The perfect venue for your<br>
-                    next event
+            <p class="text-white">
+              Amet minim mollit non deserunt ullamco est sit aliqua<br />
+              dolor do amet sint. Velit officia consequat duis enim velit.
+            </p>
+
+            <button class="btn btn-light text-primary fw-bold px-5 py-2">
+              Book Now
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span
+          class="carousel-control-prev-icon"
+          style="width: 160px; height: 60px; filter: grayscale(1); opacity: 0.8"
+        >
+        </span>
+      </button>
+
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span
+          class="carousel-control-next-icon"
+          style="width: 160px; height: 60px; filter: grayscale(1); opacity: 0.8"
+        >
+        </span>
+      </button>
+    </div>
+    <!--carousel-->
+    <!--Precious part-->
+    <section class="py-5">
+      <div class="container">
+        <div
+          class="row align-items-center gx-4 flex-column-reverse flex-lg-row"
+        >
+          <div class="col-lg-6">
+            <img src="pic/c1.jpg" class="img-fluid" alt="Event" />
+          </div>
+          <div class="col-md-6">
+            <div class="card border-0">
+              <div class="card-body">
+                <h1 class="card-title fw-bold mb-3 ">
+                  Every moment is Precious
                 </h1>
+                <div class="withtoast position-relative">
+                  <p class="card-text mb-4 text-secondary fw-bold">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Ullam excepturi vero dolores nulla velit libero ipsam, alias
+                    nam nemo? Unde ratione officiis nisi tenetur architecto quos
+                    qui explicabo dolores tempore.
+                  </p>
+    <div class="toast show custom-toast shadow border-0"
+    
+    >
+        <div class="toast-body d-flex align-items-center position-relative">
+            
+        
+            <span class="offer-icon">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gift" viewBox="0 0 16 16">
+  <path d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 14.5V7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A3 3 0 0 1 3 2.506zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43zM9 3h2.932l.023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0zM1 4v2h6V4zm8 0v2h6V4zm5 3H9v8h4.5a.5.5 0 0 0 .5-.5zm-7 8V7H2v7.5a.5.5 0 0 0 .5.5z"/>
+</svg>
+          </span>
 
-                <p class="text-white">
-                    Amet minim mollit non deserunt ullamco est sit aliqua
-                    dolor do amet sint. Velit officia consequat duis enim velit.
-                </p>
+        <span class="ms-2 ">
+            20% off on next booking
+                </span>
 
-                <button class="btn btn-light text-primary fw-bold px-5 py-2">
-                    Book Now
+                <button 
+                 type="button"
+                 style="position:absolute; top:0; right:10px;
+                ;
+                   width:3px;
+                   height:10px;
+                   
+                   
+                 " 
+                 class="btn-close">
                 </button>
 
-            </div>
-
         </div>
-
-
     </div>
 
+                 </div>
+                   <a
+                 id="disappear"
+                  href="#"
+                  class="btn  btn-primary px-5 py-2 rounded-0 fw-bold"
+                >
+                       Explore our album
 
-
-
-    <button class="carousel-control-prev"
-    type="button"
-    data-bs-target="#carouselExampleIndicators"
-    data-bs-slide="prev">
-
-        <span class="carousel-control-prev-icon"
-        style="
-        width:60px;
-        height:60px;
-        filter:grayscale(1);
-        opacity:0.8;
-        ">
-        </span>
-
-    </button>
-
-
-
-
-    <button class="carousel-control-next"
-    type="button"
-    data-bs-target="#carouselExampleIndicators"
-    data-bs-slide="next">
-
-        <span class="carousel-control-next-icon"
-        style="
-        width:60px;
-        height:60px;
-        filter:grayscale(1);
-        opacity:0.8;
-        ">
-        </span>
-
-    </button>
-
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-arrow-right ms-2"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                    />
+                  </svg>
+                </a>
 
 </div>
-<!--carousel-->
 
-<!--Happy clients-->
-<section class="py-5">
-    <div class="container">
-
-        <div class="text-center mb-5">
-            <h2 class="fw-bold">
-                Happy Clients says
-            </h2>
+             
+              </div>
+            </div>
+          </div>
         </div>
+          <div class="mobile button">
+                    <a
+                   id="appear"
+                  href="#"
+                  class="btn  btn-primary  rounded-0 fw-bold px-3 py-3"
+                  style="width: 50%;
+                  margin: 25px auto;
+                 
 
+                  "
+                >
+                  Explore our album
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-arrow-right ms-2"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                    />
+                  </svg>
+                </a>
+          </div>
+              
+      </div>
+    </section>
+
+    <!--Precious part-->
+
+    <!--Our Package-->
+    <section class="py-2">
+      <div class="container">
+        <div class="text-center py-3 mb-md-5">
+          <h2 class="fw-bold md-py-5">Our Packages</h2>
+        </div>
+        <div class="row" >
+          <div class="col-md-3 mt-5 mb-4">
+            <div class="card border-0">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h3 class="text-dark fw-bold py-1">$300</h3>
+                <h4 class="text-dark fw-bold py-3 h4modified">
+                  Corporate event
+                </h4>
+                <p class="card-text text-secondary">
+                  Some quick example text to build on the card title and make up
+                </p>
+                <ul class="list-unstyled text-secondary mb-4">
+                  <li class="d-flex align-items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check me-1 temperedsvg"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                      />
+                    </svg>
+                    limited space access
+                  </li>
+
+                  <li class="d-flex align-items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check me-1 temperedsvg"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                      />
+                    </svg>
+                    Security facility
+                  </li>
+
+                  <li class="d-flex align-items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check me-1"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                      />
+                    </svg>
+                    event support
+                  </li>
+
+                  <li class="d-flex align-items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg "
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check me-1 temperedsvg"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                      />
+                    </svg>
+                    Decoration design
+                  </li>
+
+                  <li class="d-flex align-items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check me-1 temperedsvg"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                      />
+                    </svg>
+                    Per day bill
+                  </li>
+                </ul>
+                <button
+                  class="btn rounded-pill text-primary fw-bold px-5 py-2 align-self-start"
+                  style="background: #fff0fa"
+                >
+                  choose plan
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mt-5 mb-4">
+            <div class="card border-0">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h3 class="text-dark fw-bold py-1">$500</h3>
+                <h4 class="text-dark fw-bold py-3 h4modified">
+                  Corporate event
+                </h4>
+                <p class="card-text text-secondary">
+                  Some quick example text to build on the card title and make up
+                </p>
+                <ul class="list-unstyled text-secondary mb-4">
+                  <li class="d-flex align-items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check me-1 temperedsvg"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                      />
+                    </svg>
+                    limited space access
+                  </li>
+
+                  <li class="d-flex align-items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check me-1 temperedsvg"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                      />
+                    </svg>
+                    Security facility
+                  </li>
+
+                  <li class="d-flex align-items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check me-1"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                      />
+                    </svg>
+                    event support
+                  </li>
+
+                  <li class="d-flex align-items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg "
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check me-1 temperedsvg"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                      />
+                    </svg>
+                    Decoration design
+                  </li>
+
+                  <li class="d-flex align-items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check me-1 temperedsvg"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                      />
+                    </svg>
+                    Per day bill
+                  </li>
+                </ul>
+                <button
+                  class="btn rounded-pill text-primary fw-bold px-5 py-2 align-self-start"
+                  style="background: #fff0fa"
+                >
+                  choose plan
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-3 position-relative mb-4" >
+            <button
+              class="btn  rounded-pill fw-bold px-3 py-1"
+              style="position: absolute; top: 0; right: 0;z-index: 1;
+              background: #FF4E4E;
+              transform: translate(-50%, -50%);
+              "
+              >Hot</button>
+            <div class="card border-0" style="background: #3F87F5;
+             padding:12px;
+             border-radius: 30px;
+            ">
+              <div class="card-body d-flex flex-column justify-content-between bluecard">
+                <h3 class="text-white fw-bold py-3">$800</h3>
+                <h4 class="text-white fw-bold py-3 h4modified">
+                  Corporate event
+                </h4>
+                <p class="card-text text-white">
+                  Some quick example text to build on the card title and make up
+                </p>
+                <ul class="list-unstyled text-white mb-4">
+                  <li class="d-flex align-items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check me-1 temperedsvg2"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                      />
+                    </svg>
+                    limited space access
+                  </li>
+
+                  <li class="d-flex align-items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check me-1 temperedsvg2"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                      />
+                    </svg>
+                    Security facility
+                  </li>
+
+                  <li class="d-flex align-items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check me-1"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                      />
+                    </svg>
+                    event support
+                  </li>
+
+                  <li class="d-flex align-items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg "
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check me-1 temperedsvg2"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                      />
+                    </svg>
+                    Decoration design
+                  </li>
+
+                  <li class="d-flex align-items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check me-1 temperedsvg2"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                      />
+                    </svg>
+                    choose plan
+                  </li>
+                </ul>
+                <button
+                  class="btn rounded-pill text-primary fw-bold px-5 py-2 mt-4 align-self-start"
+                  style="background: #fff0fa"
+                >
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mt-5 mb-4">
+            <div class="card border-0">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h3 class="text-dark fw-bold py-1">$1200</h3>
+                <h4 class="text-dark fw-bold py-3 h4modified">
+                  Corporate event
+                </h4>
+                <p class="card-text text-secondary">
+                  Some quick example text to build on the card title and make up
+                </p>
+                <ul class="list-unstyled text-secondary mb-4">
+                  <li class="d-flex align-items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check me-1 temperedsvg"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                      />
+                    </svg>
+                    limited space access
+                  </li>
+
+                  <li class="d-flex align-items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check me-1 temperedsvg"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                      />
+                    </svg>
+                    Security facility
+                  </li>
+
+                  <li class="d-flex align-items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check me-1"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                      />
+                    </svg>
+                    event support
+                  </li>
+
+                  <li class="d-flex align-items-center mb-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg "
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check me-1 temperedsvg"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                      />
+                    </svg>
+                    Decoration design
+                  </li>
+
+                  <li class="d-flex align-items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-check me-1 temperedsvg"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"
+                      />
+                    </svg>
+                    Per day bill
+                  </li>
+                </ul>
+                <button
+                  class="btn rounded-pill text-primary fw-bold px-5 py-2 align-self-start"
+                  style="background: #fff0fa"
+                >
+                  choose plan
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Our Package-->
+
+    <!--Happy clients-->
+    <section class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold py-5">Happy Clients says</h2>
+        </div>
 
         <div class="row g-4 justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="text-center bg-white p-4 shadow rounded">
+              <p class="text-secondary">
+                Slate helps you see how<br />
+                many more days you need<br />
+                to work to reach your financial<br />
+                goal for the month and year.
+              </p>
 
-            <div class="col-lg-4 col-md-6">
-                <div class="text-center bg-white p-4 shadow rounded">
+              <img
+                src="pic/p2.png"
+                class="rounded-circle mb-3"
+                width="80"
+                height="80"
+                alt="Client"
+              />
 
-                    <p class="text-secondary">
-                        Slate helps you see how<br>
-                        many more days you need<br>
-                        to work to reach your financial<br>
-                        goal for the month and year.
-                    </p>
+              <h6 class="fw-bold mb-1">Regina Miles</h6>
 
-                    <img 
-                    src="pic/p2.png"
-                    class="rounded-circle mb-3"
-                    width="80"
-                    height="80"
-                    alt="Client">
-
-                    <h6 class="fw-bold mb-1">
-                        Regina Miles
-                    </h6>
-
-                    <p class="text-secondary mb-0">
-                        Banker
-                    </p>
-
-                </div>
+              <p class="text-secondary mb-0">Banker</p>
             </div>
+          </div>
 
+          <div class="col-lg-4 col-md-6">
+            <div class="text-center bg-white p-4 shadow rounded">
+              <p class="text-secondary">
+                Slate helps you see how<br />
+                many more days you need<br />
+                to work to reach your financial<br />
+                goal for the month and year.
+              </p>
 
-            <div class="col-lg-4 col-md-6">
-                <div class="text-center bg-white p-4 shadow rounded">
+              <img
+                src="pic/p1.png"
+                class="rounded-circle mb-3"
+                width="80"
+                height="80"
+                alt="Client"
+              />
 
-                    <p class="text-secondary">
-                        Slate helps you see how<br>
-                        many more days you need<br>
-                        to work to reach your financial<br>
-                        goal for the month and year.
-                    </p>
+              <h6 class="fw-bold mb-1">Jane Drake</h6>
 
-                    <img 
-                    src="pic/p1.png"
-                    class="rounded-circle mb-3"
-                    width="80"
-                    height="80"
-                    alt="Client">
-
-                    <h6 class="fw-bold mb-1">
-                        Jane Drake
-                    </h6>
-
-                    <p class="text-secondary mb-0">
-                        Banker
-                    </p>
-
-                </div>
+              <p class="text-secondary mb-0">Banker</p>
             </div>
+          </div>
 
+          <div class="col-lg-4 col-md-6">
+            <div class="text-center bg-white p-4 shadow rounded">
+              <p class="text-secondary">
+                Slate helps you see how<br />
+                many more days you need<br />
+                to work to reach your financial<br />
+                goal for the month and year.
+              </p>
 
-            <div class="col-lg-4 col-md-6">
-                <div class="text-center bg-white p-4 shadow rounded">
+              <img
+                src="pic/p2.png"
+                class="rounded-circle mb-3"
+                width="80"
+                height="80"
+                alt="Client"
+              />
 
-                    <p class="text-secondary">
-                        Slate helps you see how<br>
-                        many more days you need<br>
-                        to work to reach your financial<br>
-                        goal for the month and year.
-                    </p>
+              <h6 class="fw-bold mb-1">Cret Yater</h6>
 
-                    <img 
-                    src="pic/p2.png"
-                    class="rounded-circle mb-3"
-                    width="80"
-                    height="80"
-                    alt="Client">
-
-                    <h6 class="fw-bold mb-1">
-                        Cret Yater
-                    </h6>
-
-                    <p class="text-secondary mb-0">
-                        Banker
-                    </p>
-
-                </div>
+              <p class="text-secondary mb-0">Banker</p>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!--Happy clients-->
+    <!--Questions Part-->
+    <section class="py-5">
+      <div class="container  ">
+        <div class="text-center py-5 mb-md-4">
+          <h2 class="fw-bold">Frequently Asked Questions</h2>
         </div>
 
-    </div>
-</section>
+        <div
+          class="row align-items-center gx-4 flex-column-reverse flex-lg-row "
+        >
+          <div class="col-lg-6">
+            <div class="accordion" id="faqAccordion">
+              <div class="accordion-item mb-2 border rounded">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button fw-medium"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faqOne"
+                    style="
+                      box-shadow: none;
+                      background: white;
+                      border: 1px solid #98c1e9;
+                    "
+                  >
+                    What's the difference between event design and event
+                    planning?
+                  </button>
+                </h2>
 
-<!--Happy clients-->
-  <!--Questions Part-->
-  <section class="py-5">
-    <div class="container">
-
-       
-        <div class="text-center mb-5">
-            <h2 class="fw-bold ">
-                Frequently Asked Questions
-            </h2>
-        </div>
-
-
-        <div class="row align-items-center gx-4 flex-column-reverse flex-lg-row">
-
-      
-            <div class="col-lg-6  ">
-
-                <div class="accordion" id="faqAccordion">
-
-
-                    
-                    <div class="accordion-item mb-2 border rounded">
-                        <h2 class="accordion-header">
-
-                            <button class="accordion-button fw-medium" 
-                            type="button" 
-                            data-bs-toggle="collapse"
-                            data-bs-target="#faqOne"
-                            style="box-shadow:none; background:white; border:1px solid #98c1e9;"
-                            >
-
-                            What's the difference between event design and event planning?
-
-                            </button>
-
-                        </h2>
-
-                        <div id="faqOne" 
-                        class="accordion-collapse collapse show"
-                        data-bs-parent="#faqAccordion">
-
-                            <div class="accordion-body text-secondary">
-                                Event design and event planning work hand in hand 
-                                to deliver a successful event. Events by Knight 
-                                offer tailor made events. This means we incorporate 
-                                both event design and event planning to create 
-                                that perfect event.
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
-                    <!-- Item 2 -->
-                    <div class="accordion-item mb-2 border ">
-
-                        <h2 class="accordion-header">
-
-                            <button class="accordion-button collapsed fw-medium"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#faqTwo"
-                            style="box-shadow:none; background:white; border:1px solid #98c1e9;"
-                            
-                            >
-
-                            What is your refund and cancellation policy?
-
-                            </button>
-
-                        </h2>
-
-
-                        <div id="faqTwo" 
-                        class="accordion-collapse collapse"
-                        data-bs-parent="#faqAccordion">
-
-                            <div class="accordion-body text-secondary">
-                                We provide flexible cancellation and refund policies 
-                                based on event requirements.
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <!-- Item 3 -->
-                    <div class="accordion-item mb-2 border rounded">
-
-                        <h2 class="accordion-header">
-
-                            <button class="accordion-button collapsed fw-medium"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#faqThree"
-                            style="box-shadow:none; background:white; border:1px solid #98c1e9;">
-
-                            How do you keep budgets on track?
-
-                            </button>
-
-                        </h2>
-
-
-                        <div id="faqThree" 
-                        class="accordion-collapse collapse"
-                        data-bs-parent="#faqAccordion">
-
-                            <div class="accordion-body text-secondary">
-                                We carefully monitor expenses and provide transparent
-                                budgeting solutions.
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
+                <div
+                  id="faqOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body text-secondary">
+                    Event design and event planning work hand in hand to deliver
+                    a successful event. Events by Knight offer tailor made
+                    events. This means we incorporate both event design and
+                    event planning to create that perfect event.
+                  </div>
                 </div>
+              </div>
 
+              <!-- Item 2 -->
+              <div class="accordion-item mb-2 border">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fw-medium"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faqTwo"
+                    style="
+                      box-shadow: none;
+                      background: white;
+                      border: 1px solid #98c1e9;
+                    "
+                  >
+                    What is your refund and cancellation policy?
+                  </button>
+                </h2>
+
+                <div
+                  id="faqTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body text-secondary">
+                    We provide flexible cancellation and refund policies based
+                    on event requirements.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="accordion-item mb-2 border rounded">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fw-medium"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faqThree"
+                    style="
+                      box-shadow: none;
+                      background: white;
+                      border: 1px solid #98c1e9;
+                    "
+                  >
+                    How do you keep budgets on track?
+                  </button>
+                </h2>
+
+                <div
+                  id="faqThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body text-secondary">
+                    We carefully monitor expenses and provide transparent
+                    budgeting solutions.
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
 
-
-
-          
-            <div class="col-lg-6 ">
-
-                <img 
-                 id="problematicimg"
-                src="pic/q.jpg"
-                class="img-fluid imgq rounded-3 shadow  mb-md-0 mb-4" 
-                alt="Event">
-
-            </div>
-
-
+          <div class="col-lg-6">
+            <img
+              id="problematicimg"
+              src="pic/q.jpg"
+              class="img-fluid imgq rounded-3 shadow mb-md-0 mb-4"
+              alt="Event"
+            />
+          </div>
         </div>
+      </div>
+    </section>
 
-    </div>
-</section>
+    <!--Questions Part-->
 
-
-
-
-  <!--Questions Part-->
-
-
-  <footer class="bg-dark text-white py-5 mt-auto">
-    <div class="container">
-
+    <footer class="bg-dark text-white py-5 mt-auto">
+      <div class="container">
         <div class="row align-items-center">
+          <!-- App Download -->
+          <div
+            class="col-md-6 d-flex justify-content-center justify-content-md-end order-1 order-md-2 mb-4 mb-md-0"
+          >
+            <div class="text-center">
+              <h6 class="mb-3" style="font-size: 18px; font-weight: 500">
+                Get the App
+              </h6>
 
-            <!-- App Download -->
-            <div class="col-md-6 d-flex justify-content-center justify-content-md-end 
-                        order-1 order-md-2 mb-4 mb-md-0">
+              <a href="#">
+                <img
+                  src="pic/iphn.png"
+                  width="110"
+                  class="d-block mb-2"
+                  alt="App Store"
+                />
+              </a>
 
-                <div class="text-center">
-
-                    <h6 class="mb-3" style="font-size:18px; font-weight:500;">
-                        Get the App
-                    </h6>
-
-                    <a href="#">
-                        <img 
-                       
-                        src="pic/iphn.png"
-                        width="110"
-                        class="d-block mb-2"
-                        alt="App Store">
-                    </a>
-
-                    <a href="#">
-                        <img 
-                        src="pic/google.png"
-                        width="110"
-                        class="d-block"
-                        alt="Google Play">
-                    </a>
-
-                </div>
-
+              <a href="#">
+                <img
+                  src="pic/google.png"
+                  width="110"
+                  class="d-block"
+                  alt="Google Play"
+                />
+              </a>
             </div>
+          </div>
 
-
-            <!-- Copyright -->
-            <div class="col-md-6 text-center text-md-start 
-                        order-2 order-md-1">
-
-                <p class="mb-0 text-white-50" style="font-size:14px;">
-                    © 2020 bike. All rights reserved
-                </p>
-
-            </div>
-
-
+          <!-- Copyright -->
+          <div class="col-md-6 text-center text-md-start order-2 order-md-1">
+            <p class="mb-0 text-white-50" style="font-size: 14px">
+              © 2020 bike. All rights reserved
+            </p>
+          </div>
         </div>
+      </div>
+    </footer>
+    <script>
+      const img = document.getElementById("problematicimg");
+      const anchor = document.getElementById("disappear");
+      const mobileAnchor = document.getElementById("appear");
 
-    </div>
-</footer>
-<script>
-    const img = document.getElementById("problematicimg");
-
-    function changeImageClass() {
+      function changeImageClass() {
         if (window.innerWidth < 768) {
-          
-            img.classList.remove("imgq");
-            img.classList.add("w-100");
+          img.classList.remove("imgq");
+          img.classList.add("w-100");
+          anchor.style.display = "none";
+          mobileAnchor.style.display = "block";
+          ;
         } else {
-            
-            img.classList.remove("w-100");
-            img.classList.add("imgq");
+          img.classList.remove("w-100");
+          img.classList.add("imgq");
+          anchor.style.display = "inline-block";
+          mobileAnchor.style.display = "none";
+          
         }
-    }
+      }
 
-   
-    changeImageClass();
+      changeImageClass();
 
-    
-    window.addEventListener("resize", changeImageClass);
-</script>
+      window.addEventListener("resize", changeImageClass);
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
